@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>WELCOME ADMIN PANEL</title>
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+       
+        <div class="jumbotron">
+            <h1>Search Student By Id</h1>
+        </div>
+        <div class="container">
+            <form action="SearchStudentRecord" method="get">
+  <div class="form-group">
+    <label for="id">Student Id</label>
+    <input type="number" class="form-control" id="id" name="id"  placeholder="Search Student by id...........">
+  </div>
+  <button type="submit" class="btn btn-primary" id="submit">Search</button>                    
+   </form>
+            <h4 id="result"></h4>
+    </div>
+        
+    </body>
+</html>
+
